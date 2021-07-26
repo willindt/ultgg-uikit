@@ -2500,7 +2500,7 @@ var Menu = function (_a) {
     var sharelinks = [
         {
             name: "Twitter",
-            url: "https://charts.bogged.finance/"
+            url: "https://x.ultgg.io/twitter"
         },
         {
             name: "Github",
@@ -2545,9 +2545,9 @@ var Menu = function (_a) {
             React.createElement(StyledNavLeft, { showMenu: showMenu },
                 React.createElement(Logo$1, { isPushed: isPushed, togglePush: function () { return setIsPushed(function (prevState) { return !prevState; }); }, isDark: isDark, href: (_b = homeLink === null || homeLink === void 0 ? void 0 : homeLink.href) !== null && _b !== void 0 ? _b : "/" }),
                 React.createElement(StyledLinkContainer, null,
-                    React.createElement(StyledNavLink, { as: "a", href: "https://charts.bogged.finance/?token=0x2065E3BD318f155abE5Ad6aa263596f197112261" },
+                    React.createElement(StyledNavLink, { as: "a", href: "https://x.ultgg.io/poocoin" },
                         React.createElement(Text, { fontSize: "20px" }, t('Chart'))),
-                    React.createElement(StyledNavLink, { as: "a" },
+                    React.createElement(StyledNavLink, { as: "a", href: "https://ultgg.io" },
                         React.createElement(Text, { fontSize: "20px" }, t('About'))),
                     React.createElement(MobileDropdown, { position: "top-right", target: React.createElement(Button, { size: "sm", variant: "text", startIcon: React.createElement(MoreIcon, { color: "textSubtle", width: "24px" }) }) }, sharelinks.map(function (link) { return (React.createElement(MenuButton, { key: link.name, fullWidth: true, onClick: function () { return goToLink(link.url); }, 
                         // Safari fix
