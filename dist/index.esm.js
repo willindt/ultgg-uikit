@@ -2292,7 +2292,7 @@ styled(Dropdown)(templateObject_1$B || (templateObject_1$B = __makeTemplateObjec
     var theme = _a.theme;
     return theme.mediaQueries.sm;
 });
-var StyledButton$1 = styled(Button)(templateObject_2$b || (templateObject_2$b = __makeTemplateObject(["\n  color: #FFFFFF !important;\n  background-color: #63f89f !important;\n"], ["\n  color: #FFFFFF !important;\n  background-color: #ff002a !important;\n"])));
+var StyledButton$1 = styled(Button)(templateObject_2$b || (templateObject_2$b = __makeTemplateObject(["\n  color: #433e3e !important;\n  background-color: #88fdac !important;\n"], ["\n  color: #FFFFFF !important;\n  background-color: #ff002a !important;\n"])));
 var UserBlock = function (_a) {
     var account = _a.account, login = _a.login, logout = _a.logout, buy = _a.buy, toggleTheme = _a.toggleTheme, isDark = _a.isDark, currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang;
     var t = useTranslation().t;
@@ -2649,7 +2649,7 @@ var templateObject_1$G;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#5ff5f8",
+    primary: "#398590",
     primaryBright: "#FF992B",
     primaryDark: "#FF992C",
     secondary: "#7645D9",
